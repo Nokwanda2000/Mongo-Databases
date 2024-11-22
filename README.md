@@ -34,7 +34,7 @@ mongosh
 
 mongosh "mongodb://localhost:27017"
 
-##MongoDB Commands
+## MongoDB Commands
 
 `1. Create a Database`
 
