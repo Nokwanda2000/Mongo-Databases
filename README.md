@@ -22,7 +22,7 @@ Open a terminal or command prompt.
 ## Run Locally
 Clone the project
 ```bash
-  git clone https://github.com/Amniei/Shopping-List.git
+  git clone https://github.com/Nokwanda2000/Mongo-Databases.git
 ```
 
 
@@ -44,9 +44,9 @@ use Codetribe
 ```
 `2. Create Collections and Insert Documents`
 
-a. Facilitators Collection:
+## a. Facilitators Collection:
 
-Insert a document with the fields Name, Location, and Course:
+`Insert a document with the fields Name, Location, and Course:`
 
 db.Facilitators.insertOne({
   Name: "John Doe",
@@ -54,7 +54,7 @@ db.Facilitators.insertOne({
   Course: "Web Development"
 })
 
-b. Trainees Collection:
+## b. Trainees Collection:
 
 Insert a document with the fields Name, Location, and Facilitator:
 
@@ -64,9 +64,9 @@ db.Trainees.insertOne({
   Facilitator: "John Doe"
 })
 
-c. Projects Collection:
+## c. Projects Collection:
 
-Insert a document with the fields Name, Course, and Lesson:
+`Insert a document with the fields Name, Course, and Lesson:`
 
 db.Projects.insertOne({
   Name: "Node.js Basics",
@@ -74,15 +74,17 @@ db.Projects.insertOne({
   Lesson: "Introduction to Node.js"
 })
 
-`3. Verify Inserted Documents`
+## `3. Verify Inserted Documents`
 
-To confirm the documents were inserted, use the find() command:
+`To confirm the documents were inserted, use the find() command:`
 
 a. Facilitators:
-
+``` bash
 db.Facilitators.find().pretty()
+```
 
 b. Trainees:
+
 
 db.Trainees.find().pretty()
 
