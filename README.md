@@ -19,10 +19,7 @@ Clone the project
 ```bash
 mongosh
 ```
-## If the MongoDB server is running on a non-default host or port, specify the connection string. For example:
-```bash
-mongosh "mongodb://localhost:27017"
-```
+
 ## MongoDB Commands
 
 `1. Create a Database`
@@ -45,7 +42,7 @@ db.Facilitators.insertOne({
 ```
 ## b. Trainees Collection:
 
-Insert a document with the fields Name, Location, and Facilitator:
+`Insert a document with the fields Name, Location, and Facilitator:`
 ```bash
 db.Trainees.insertOne({
   Name: "Jane Smith",
