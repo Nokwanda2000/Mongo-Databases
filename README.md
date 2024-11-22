@@ -19,6 +19,12 @@ Starting the MongoDB Shell (mongosh)
 Open a terminal or command prompt.
 
 
+## Run Locally
+Clone the project
+```bash
+  git clone https://github.com/Amniei/Shopping-List.git
+```
+
 
 `Start the MongoDB shell by typing:`
 
