@@ -39,9 +39,9 @@ mongosh "mongodb://localhost:27017"
 `1. Create a Database`
 
 `Switch to the desired database. If the database does not exist, it will be created automatically upon inserting data:`
-
+```bash
 use Codetribe
-
+```
 `2. Create Collections and Insert Documents`
 
 a. Facilitators Collection:
