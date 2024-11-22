@@ -100,6 +100,8 @@ Ensure the MongoDB server is running before starting the shell or using export c
 
 If mongodump is not recognized, ensure MongoDB Database Tools are installed and added to the PATH.
 
+## Tech Stack
+ MongoDB. MongoDB Shell
 
 
 <h4>By following the steps above, you can successfully create databases, collections, and documents using the MongoDB shell, and export your database for backup or sharing.</h4>
