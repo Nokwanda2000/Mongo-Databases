@@ -1,7 +1,7 @@
 <img src="https://socialify.git.ci/Nokwanda2000/Mongo-Databases/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="Mongo-Databases" width="640" height="320" />
 
 <h1>Mongo-Databases</h1>
-`MongoDB Shell Commands README`
+
 
 
 <p>This document provides step-by-step instructions for using the MongoDB shell (mongosh) to complete the following tasks</p>
