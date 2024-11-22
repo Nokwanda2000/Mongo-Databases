@@ -31,9 +31,9 @@ Clone the project
 mongosh
 ```
 ## If the MongoDB server is running on a non-default host or port, specify the connection string. For example:
-
+```bash
 mongosh "mongodb://localhost:27017"
-
+```
 ## MongoDB Commands
 
 `1. Create a Database`
@@ -108,7 +108,7 @@ Ensure the MongoDB server is running before starting the shell or using export c
 
 If mongodump is not recognized, ensure MongoDB Database Tools are installed and added to the PATH.
 
-`Troubleshooting`
+## Troubleshooting
 
 MongoDB Shell Connection Error:
 
