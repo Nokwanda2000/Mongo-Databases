@@ -27,9 +27,9 @@ Clone the project
 
 
 ## Start the MongoDB shell by typing:
-
+```bash
 mongosh
-
+```
 ## If the MongoDB server is running on a non-default host or port, specify the connection string. For example:
 
 mongosh "mongodb://localhost:27017"
