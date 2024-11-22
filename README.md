@@ -16,23 +16,23 @@ Starting the MongoDB Shell (mongosh)
 
 Open a terminal or command prompt.
 
-Start the MongoDB shell by typing:
+`Start the MongoDB shell by typing:`
 
 mongosh
 
-If the MongoDB server is running on a non-default host or port, specify the connection string. For example:
+`If the MongoDB server is running on a non-default host or port, specify the connection string. For example:`
 
 mongosh "mongodb://localhost:27017"
 
-MongoDB Commands
+`MongoDB Commands`
 
-1. Create a Database
+`1. Create a Database`
 
 Switch to the desired database. If the database does not exist, it will be created automatically upon inserting data:
 
 use Codetribe
 
-2. Create Collections and Insert Documents
+`2. Create Collections and Insert Documents`
 
 a. Facilitators Collection:
 
@@ -64,7 +64,7 @@ db.Projects.insertOne({
   Lesson: "Introduction to Node.js"
 })
 
-3. Verify Inserted Documents
+`3. Verify Inserted Documents`
 
 To confirm the documents were inserted, use the find() command:
 
@@ -80,13 +80,13 @@ c. Projects:
 
 db.Projects.find().pretty()
 
-4. Export the Database
+`4. Export the Database`
 
 To export the database, use the mongodump command. Ensure MongoDB tools are installed and added to your system's PATH.
 
 Open a terminal or command prompt.
 
-Run the following command:
+`Run the following command:`
 
 mongodump --db=Codetribe --out=./Codetribe_Dump
 
@@ -98,7 +98,7 @@ Ensure the MongoDB server is running before starting the shell or using export c
 
 If mongodump is not recognized, ensure MongoDB Database Tools are installed and added to the PATH.
 
-Troubleshooting
+`Troubleshooting`
 
 MongoDB Shell Connection Error:
 
