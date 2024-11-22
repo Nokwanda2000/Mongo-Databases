@@ -81,9 +81,9 @@ c. Projects:
 ```bash
 
 db.Projects.find().pretty()
+```
 
 `4. Export the Database`
-```
 
 To export the database, use the mongodump command. Ensure MongoDB tools are installed and added to your system's PATH.
 
