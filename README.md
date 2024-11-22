@@ -4,17 +4,19 @@
 
 This document provides step-by-step instructions for using the MongoDB shell (mongosh) to complete the following tasks:
 
-`Starting the MongoDB shell`
+Starting the MongoDB shell
 
 Creating databases and collections
 
-`Inserting documents`
+Inserting documents
 
 Exporting the database
 
 Starting the MongoDB Shell (mongosh)
 
 Open a terminal or command prompt.
+
+
 
 `Start the MongoDB shell by typing:`
 
@@ -28,7 +30,7 @@ mongosh "mongodb://localhost:27017"
 
 `1. Create a Database`
 
-Switch to the desired database. If the database does not exist, it will be created automatically upon inserting data:
+`Switch to the desired database. If the database does not exist, it will be created automatically upon inserting data:`
 
 use Codetribe
 
