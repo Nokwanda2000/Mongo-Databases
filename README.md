@@ -94,11 +94,12 @@ db.Projects.find().pretty()
 
 To export the database, use the mongodump command. Ensure MongoDB tools are installed and added to your system's PATH.
 
-Open a terminal or command prompt.
+## Open a terminal or command prompt.
 
 `Run the following command:`
-
+```bash
 mongodump --db=Codetribe --out=./Codetribe_Dump
+```
 
 This creates a folder named Codetribe_Dump containing the exported data.
 
