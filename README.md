@@ -4,7 +4,7 @@
 `MongoDB Shell Commands README`
 
 
-This document provides step-by-step instructions for using the MongoDB shell (mongosh) to complete the following tasks:
+<p>This document provides step-by-step instructions for using the MongoDB shell (mongosh) to complete the following tasks</p>
 
 Starting the MongoDB shell
 
