@@ -26,7 +26,7 @@ Clone the project
 ```
 
 
-`Start the MongoDB shell by typing:`
+## Start the MongoDB shell by typing:
 
 mongosh
 
