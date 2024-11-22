@@ -100,19 +100,7 @@ Ensure the MongoDB server is running before starting the shell or using export c
 
 If mongodump is not recognized, ensure MongoDB Database Tools are installed and added to the PATH.
 
-## Troubleshooting
 
-MongoDB Shell Connection Error:
-
-Verify the MongoDB server is running.
-
-Check the connection string for accuracy.
-
-mongodump Not Recognized:
-
-Ensure MongoDB tools are installed.
-
-Add the tools’ bin directory to the system PATH.
 
 By following the steps above, you can successfully create databases, collections, and documents using the MongoDB shell, and export your database for backup or sharing.
 
