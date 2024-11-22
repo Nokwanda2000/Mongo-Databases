@@ -74,8 +74,9 @@ db.Facilitators.find().pretty()
 
 b. Trainees:
 
-
+```bash
 db.Trainees.find().pretty()
+```
 
 c. Projects:
 ```bash
