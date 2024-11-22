@@ -30,11 +30,11 @@ Clone the project
 
 mongosh
 
-`If the MongoDB server is running on a non-default host or port, specify the connection string. For example:`
+## If the MongoDB server is running on a non-default host or port, specify the connection string. For example:
 
 mongosh "mongodb://localhost:27017"
 
-`MongoDB Commands`
+##MongoDB Commands
 
 `1. Create a Database`
 
