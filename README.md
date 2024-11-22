@@ -38,7 +38,7 @@ mongosh "mongodb://localhost:27017"
 
 `1. Create a Database`
 
-`Switch to the desired database. If the database does not exist, it will be created automatically upon inserting data:`
+## Switch to the desired database. If the database does not exist, it will be created automatically upon inserting data:`
 ```bash
 use Codetribe
 ```
